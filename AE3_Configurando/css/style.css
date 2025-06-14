@@ -1,0 +1,39 @@
+h1 { 
+    color: blueviolet;
+    font-size: 10px;
+}
+
+h2 {
+    color: rgb(129, 212, 126);
+    font-size: 20px;
+}
+
+h3 {
+    color: rgb(226, 147, 43);
+    font-size: 30px;
+}
+
+h4 {
+    color: rgb(67, 82, 223);
+    font-size: 40px;
+}
+
+h5 {
+    color: rgb(226, 43, 186);
+    font-size: 50px;
+}
+
+h6 { /* 1 punto */
+    color: rgb(226, 43, 92);
+    font-size: 60px;
+}
+
+.disenoH {    /* 10 puntos */
+    color: chocolate;
+    font-family: fantasy;
+}
+
+#quintoTexto { /*100 puntos*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

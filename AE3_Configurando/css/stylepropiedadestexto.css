@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif; 
+}
+
+p {
+  text-align: left;   /* Alineación a la izquierda */
+  text-align: center; /* Alineación al centro */
+  text-align: right;  /* Alineación a la derecha */
+}
+
+a {
+  text-decoration: underline;   /* Subrayado */
+  font-style: italic;           /* Cursiva */
+  text-decoration: line-through; /* Tachado */
+  text-decoration: none;         /* Sin formato */
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario de Registro</title>
+    </head>
+    <body>
+        <form action="/registro" method="post">
+            <div>
+                <label for="nombre_completo">Tu nombre completo: </label>
+                <input type="text" name="nombre_completo" placeholder="Ingresa tu nombre" />         
+
+            <div>
+                <label for="correo">Correo electrónico: </label>
+                <input type="email" name="correo" placeholder="Ingresa tu correo" />
+            </div>
+
+            <div>
+                <label for="contraseña">Contraseña: </label>
+                <input type="password" name="contraseña" placeholder="Ingresa tu contraseña" />
+            </div>
+
+            <div>
+                <input type="checkbox" name="suscribirse" id="suscribirse" checked />
+                <label for="suscribirse">Deseo suscribirme al boletín informativo.</label>
+            </div>
+
+            <input type="submit" value="Registrarse" />
+        </form>
+    </body>
+</html>

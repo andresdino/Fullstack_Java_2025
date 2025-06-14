@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container mt-5">
+      <h2 class="mb-4">Formulario con Bootstrap</h2>
+
+      <form action="#" method="POST">
+        <section>
+            <div class="mb-3" id="secNombre">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" />
+            </div>
+
+            <div class="mb-3">
+            <label for="edad" class="form-label">Edad:</label>
+            <input type="number" class="form-control" id="edad" name="edad" />
+            </div>
+        </section>
+        <div class="mb-3">
+          <label for="clave" class="form-label">Contraseña:</label>
+          <input
+            type="password"
+            class="form-control"
+            id="clave"
+            name="clave"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="fecha_nacimiento" class="form-label">Fecha de nacimiento:</label>
+          <input
+            type="date"
+            class="form-control"
+            id="fecha_nacimiento"
+            name="fecha_nacimiento"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="precio" class="form-label">Precio (entre 0 y 20):</label>
+          <input
+            type="number"
+            step="0.01"
+            min="0"
+            max="20"
+            class="form-control"
+            id="precio"
+            name="precio"
+            placeholder="Ej. 19.99"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="color_texto" class="form-label">Color del texto:</label>
+          <input
+            type="color"
+            class="form-control form-control-color"
+            id="color_texto"
+            name="color_texto"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label d-block">Estilo de fuente:</label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              id="negrita"
+              name="estilo_fuente"
+              value="bold"
+            />
+            <label class="form-check-label" for="negrita"><strong>Negrita</strong></label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              id="normal"
+              name="estilo_fuente"
+              value="normal"
+            />
+            <label class="form-check-label" for="normal">Normal</label>
+          </div>
+        </div>
+
+        <div class="mb-3 form-check">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="acepto"
+            name="acepto"
+          />
+          <label class="form-check-label" for="acepto">Acepto los términos y condiciones</label>
+        </div>
+
+        <div class="mb-3">
+          <label for="comentario" class="form-label">Comentario:</label>
+          <textarea
+            class="form-control"
+            id="comentario"
+            name="comentario"
+            rows="4"
+          ></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label for="bandas" class="form-label">Bandas favoritas:</label>
+          <select class="form-select" id="bandas" name="bandas">
+            <option value="imaginedragons">Imagine Dragons</option>
+            <option value="theweeknd">The Weeknd</option>
+            <option value="twentyonepilots">Twenty One Pilots</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+
+    <!-- Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

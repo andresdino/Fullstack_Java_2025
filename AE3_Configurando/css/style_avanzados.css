@@ -1,0 +1,15 @@
+#container p {  /* 100  1 = 101*/
+    font-size: 16px;
+    background-color: #333;
+    color: aqua;
+}
+
+#container p.highlight  /* 100 + 1 + 10 = 111*/{
+    font-weight: bold;
+    color: #ff0000; /* Rojo */
+}
+
+#container p  {    /* 100 + 1 = 101 */
+    font-weight: bold;
+    color: #226ddf; /* Blanco */
+}

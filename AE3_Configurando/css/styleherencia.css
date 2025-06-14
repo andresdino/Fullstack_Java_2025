@@ -1,0 +1,17 @@
+body {
+    color: rgb(251, 0, 255);
+    font-family: fantasy;
+}
+
+h1 {
+    color: black;
+}
+
+#textoh2 { /*1, 0, 0*/
+    color: brown;
+}
+
+h2 { /*0,0,1*/
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}

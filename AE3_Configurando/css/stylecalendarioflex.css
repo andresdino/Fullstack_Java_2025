@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f9ff;
+  margin: 20px;
+}
+
+.calendario {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.fila {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.col {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: lightyellow;
+  text-align: center;
+}
+
+.encabezado .col {
+  background-color: lightblue;
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -1,0 +1,18 @@
+body{
+    text-align: center; /* 1 punto */
+    color: blueviolet;
+}
+
+p {
+    color: rgb(220, 68, 129);
+    text-align: end;  /*1 punto*/
+}
+
+.texto {
+    color: blue;  /* 10 puntos */
+   
+}
+
+#importante {
+    color: red;   /* 100 puntos */    
+}

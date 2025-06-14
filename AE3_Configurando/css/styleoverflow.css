@@ -1,0 +1,16 @@
+.contenedor {
+      display: flex;               
+      overflow-x: auto;            
+      gap: 30px;                  
+      padding: 10px;
+      border: 2px solid #d1c4c4;
+    }
+
+.box {
+    min-width: 300px;            
+    height: 200px;
+    background-color: #e6f2ff;
+    border: 1px solid #22d22a;
+    padding: 10px;
+    overflow: auto;              
+}

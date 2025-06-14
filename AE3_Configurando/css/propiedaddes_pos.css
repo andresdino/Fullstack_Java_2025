@@ -1,0 +1,52 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contenedor {
+      margin: 50px;
+      padding: 20px;
+      border: 2px dashed #333;
+      position: relative; /* Para que absolute se posicione relativo a este */
+      height: 300px;
+      background-color: #f0f0f0;
+    }
+
+    .static {
+      position: static;
+      background-color: lightcoral;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .relative {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      background-color: lightgreen;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .absolute {
+      position: absolute;
+      top: 50px;
+      right: 20px;
+      background-color: lightblue;
+      padding: 10px;
+      width: 200px;
+    }
+
+    .fixed {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: gold;
+      padding: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .espacio {
+      height: 600px;
+    }

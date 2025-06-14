@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+  }
+  
+  .column {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(40, 176, 221);
+  }
+  
+  .col-1 {
+    flex: 5;
+  }
+  
+  .col-2 {
+    flex: 7;
+  }
+  
+  .col-3 {
+    flex: 10;
+  }

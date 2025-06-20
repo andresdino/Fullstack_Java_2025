@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de Variables y Operadores en JavaScript</title>
+</head>
+<body>
+  <h2>Abre la consola (F12) para ver el resultado</h2>
+
+  <script>
+    // Declaración de variables
+    let edad = 50;
+    let apellidos = "Santos";
+    let meGustaJS = true;
+
+    console.log("Edad:", edad);                // 50
+    console.log("Apellidos:", apellidos);      // Santos
+    console.log("¿Te gusta JavaScript?:", meGustaJS); // true
+
+    // Cambio de tipo de dato
+    edad = "Cincuenta";
+    console.log("Edad ahora como texto:", edad);  // Cincuenta
+
+    // Operadores básicos
+    let suma = 12 + 3;
+    let concatenacion = "12" + "3";
+    let resta = 12 - 3;
+    let multiplicacion = 12 * 3;
+    let division = 12 / 3;
+    let divisionDecimal = 12 / 5;
+
+    console.log("Suma:", suma);                   // 15
+    console.log("Concatenación:", concatenacion); // "123"
+    console.log("Resta:", resta);                 // 9
+    console.log("Multiplicación:", multiplicacion); // 36
+    console.log("División:", division);           // 4
+    console.log("División decimal:", divisionDecimal); // 2.4
+
+    // Precedencia de operadores
+    let resultado = 2 + 4 * 10;
+    let resultado2 = (2 + 4) * 10;
+
+    console.log("Resultado sin paréntesis:", resultado);  // 42
+    console.log("Resultado con paréntesis:", resultado2); // 60
+
+    // Operadores de asignación compuesta
+    let puntos = 10;
+    puntos += 5;  // suma 5
+    puntos -= 3;  // resta 3
+    puntos *= 2;  // multiplica por 2
+    puntos /= 4;  // divide por 4
+
+    console.log("Puntos finales:", puntos); // (((10 + 5) - 3) * 2) / 4 = 6
+
+    // Uso con cadenas de texto
+    let mensaje = "¡Hola, ";
+    mensaje += "mundo!";
+    console.log(mensaje); // "¡Hola, mundo!"
+
+    // Tipos de datos
+    let numero = 42;           // número
+    let texto = "Hola mundo";  // string
+    let booleano = false;      // booleano
+    let indefinido;            // undefined (sin valor asignado)
+    let nulo = null;           // null (valor intencionalmente vacío)
+
+    console.log("Número:", numero);
+    console.log("Texto:", texto);
+    console.log("Booleano:", booleano);
+    console.log("Indefinido:", indefinido);
+    console.log("Nulo:", nulo);
+  </script>
+</body>
+</html>

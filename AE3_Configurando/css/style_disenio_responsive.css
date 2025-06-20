@@ -1,0 +1,12 @@
+/* Diseño para móviles, que a su vez aplicarán para pantallas más grandes */
+body {
+  font-size: 16px;
+  background-color: rgb(163, 112, 112);
+}
+
+/* Para pantallas más grandes */
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(78, 224, 88);
+  }
+}

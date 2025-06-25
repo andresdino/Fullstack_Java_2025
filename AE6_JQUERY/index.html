@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Interacción con jQuery y Bootstrap</title>
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Hoja de estilos personalizada -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="p-4">
+
+  <!-- Título -->
+  <h1 id="header" class="text-center bg-primary text-white p-3 rounded">Título Original del Header</h1>
+
+  <!-- Contenedor con párrafo -->
+  <div id="contenido" class="p-2 my-3 bg-light border rounded">
+    <p>Este es un párrafo inicial.</p>
+    <div class="producto alert alert-danger">Producto 1</div>
+  </div>
+
+  <!-- Botones de interacción -->
+  <div class="text-center my-3">
+    <button id="cambiarTitulo" class="btn btn-primary">Cambiar Título</button>
+    <button id="ocultarProducto" class="btn btn-danger">Ocultar Producto</button>
+    <button id="mostrarProducto" class="btn btn-success">Mostrar Producto</button>
+    <button id="agregarParrafo" class="btn btn-warning">Agregar Párrafo</button>
+  </div>
+
+  <!-- Campo de texto -->
+  <div class="text-center">
+    <input id="inputCorreo" class="form-control w-50 mx-auto" placeholder="Escribe tu correo">
+  </div>
+
+  <!-- Caja con hover -->
+  <div class="box mx-auto mt-4"></div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
